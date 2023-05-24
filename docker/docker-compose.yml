@@ -1,14 +1,11 @@
-version: '3'
+version: '3.8'
 
 services:
 
-  todotests:
-    build: ./todo-app/tests/
-    depends_on:
-      - todofront
-      - todoback
-    environment:
-      - FRONT_HOST=todofront
+  todoback:
+    build: ./todo-app/back-end/
+    ports:
+      - 3001:3001
     networks:
       - network-1
 
@@ -23,10 +20,13 @@ services:
     networks:
       - network-1
 
-  todoback:
-    build: ./todo-app/back-end/
-    ports:
-      - 3001:3001
+  todotests:
+    build: ./todo-app/tests/
+    depends_on:
+      - todofront
+      - todoback
+    environment:
+      - FRONT_HOST=todofront
     networks:
       - network-1
 
