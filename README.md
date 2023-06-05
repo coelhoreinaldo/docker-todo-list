@@ -1,10 +1,21 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# 🛰 Docker To-Do List
+
+![100% de aprovação no projeto](./grade.png)
+
+## 📘 Sobre
+
+Criei containers para várias aplicações e estabeleci conexões entre elas, orquestrando tudo com o uso do docker-compose.
+
+## ⚛️ Ferramentas
+
+Projeto construído utilizando React.js.
+
+- Docker;
+
+## 🛠️ Como executar o projeto?
+
+`docker-compose up`
+
+## ©️ Copyright
+
+- Os arquivos Dockerfile, docker-compose.yml e a pasta docker-commands foram desenvolvidos por mim por mim, todo o resto é de autoria da Trybe.
