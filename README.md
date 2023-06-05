@@ -1,4 +1,4 @@
-# 🛰 Docker To-Do List
+# 🐳 Docker To-Do List
 
 ![100% de aprovação no projeto](./grade.png)
 
